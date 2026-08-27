@@ -12,8 +12,14 @@ back to in-browser progress when the daemon is unreachable.
 ## Install
 
 ```bash
-dsh plugin --profile web add "github:ktao732084-arch/dsh-vibegap#main"
+dsh plugin --profile web add dsh-vibegap
 dsh web
+```
+
+Alternatively, install the latest mirror branch directly:
+
+```bash
+dsh plugin --profile web add "github:ktao732084-arch/dsh-vibegap#main"
 ```
 
 Uninstall:
